@@ -19,8 +19,8 @@ provider "aws" {
 #     values = ["hvm"]
 #   }
 
-  owners = ["099720109477"] # Canonical
-}
+#   owners = ["099720109477"] # Canonical
+# }
 
 resource "aws_instance" "web" {
   ami           = ami-0d53808c8c345ed07 #data.aws_ami.ubuntu.id
